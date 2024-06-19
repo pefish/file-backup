@@ -15,13 +15,7 @@ go install github.com/pefish/file-backup/cmd/file-backup@latest
 ## 快速开始
 
 ```shell script
-file-backup --config=/path/to/config
-```
-
-或者
-
-```shell script
-GO_CONFIG=/path/to/config file-backup
+file-backup --interval-hours=1 -- ./cmd ./tmp
 ```
 
 ## 文档
